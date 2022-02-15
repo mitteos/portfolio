@@ -1,0 +1,604 @@
+@media (max-width: 1400px) { 
+    .title_row .title_item {
+        margin-right: 10px;
+    }
+    .menu_item {
+        text-align: center;
+    }
+    .menu {
+        align-items: center;
+    }
+    .contacts_button button {
+        padding: 5px 20px;
+    }
+    .title_row .title_item h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .title_row .title_item h2 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 38px;
+    }
+    .title_row .title_item .title_experience h3 {
+        font-size: 100px;
+    }
+    .title_row .title_item .title_experience p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .technologies_title, .stages_title {
+        font-size: 22px;
+    }
+    .technologies_item p {
+        font-size: 13px;
+    }
+    .stages p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .portfolio_top h1 {
+        font-size: 22px;
+    }
+    .review_title {
+        font-size: 22px;
+    }
+    .review_text {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .form_title {
+        font-size: 22px;
+    }
+    .form_body .inputs_item {
+        height: 180px;
+    }
+    .form_body .inputs {
+        grid-template-columns: 200px 200px 200px;
+    }
+    .reviews_page {
+        grid-template-columns: 42% 42%;
+    }
+
+}
+
+@media (max-width: 1200px) { 
+    .title_row .title_item img {
+        width: 300px;
+        height: auto;
+    } 
+    .title_row .title_item h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .title_row .title_item h2 {
+        font-size: 14px;
+    }
+    .title_row .title_item button {
+        padding: 15px 25px;
+    }
+    .title_row .title_item .title_experience h3 {
+        font-size: 90px;
+    }
+    .technologies_item {       
+        margin-right: 30px;
+    }
+    .stages p {
+        font-size: 13px;
+    }
+    .stages button {
+        padding: 15px 25px;
+    }
+    .item_name {
+        font-size: 16px;
+    }
+    .window_item {
+        align-items: center;
+    }
+    .review_img img {
+        height: 254px;
+    }
+    .form_img {
+        top: 70%;
+    }
+    .footer_left p {
+        text-align: center;
+    }
+    .footer_right p {
+        text-align: center;
+    }
+    .reviews_page {
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 6%;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 992px) { 
+    .header {
+        display: none;
+    }
+    .footer_middle {
+        display: block;
+    }
+    .footer_left {
+        padding-top: 35px;
+        margin-bottom: 20px;
+    }
+    .title {
+        margin-top: 130px;
+    }
+    .title_row .title_item:last-child {
+        display: none
+    }
+    .technologies_img {
+        height: 90px;
+        width: 90px;
+    }
+    .technologies_img img {
+        width: 50px;
+    }
+    .technologies_item {
+        margin-right: 10px;
+    }
+    .technologies_item p {
+        font-size: 12px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .technologies_title, .stages_title {
+        font-size: 18px;
+    }
+    .stages {
+        display: none;
+    }
+    .portfolio {
+        background: none;
+    }
+    .review {
+        background: #F8F9FF;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    .review_img img {
+        height: 180px;
+    }
+    .form_body .inputs {
+        grid-template-columns: 150px 150px 150px;
+        height: 300px;
+    }
+    .form_body .inputs_item {
+        height: 140px;
+    }
+    .application_contact {
+        display: block
+    }
+    .application_contact .contact_name {
+        margin-bottom: 20px;
+    }
+    .label {
+        width: 70%
+    }
+
+    .mobile_logo {
+        margin: 5px 0 0 15px;
+      }
+    .mobile_logo img {
+        width: 120px;
+    }
+    
+    .mobile_top {
+        z-index: 1001;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: #F8F9FF;
+        padding: 1px 0 1px 0;
+        border-bottom: 1px solid #99a2d6;
+      }
+    .mobile_menu_btn {
+        margin: 0 15px 0 auto;
+        display: block;
+        width: 20px;
+        height: 13px;
+        position: relative;
+    }
+      
+    .mobile_menu_btn span {
+        position: absolute;
+        top: 50%;
+        width: 20px;
+        height: 2px;
+        margin-top: -1px;
+        background: black;
+        border-radius: 2px;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+      
+    .mobile_menu_btn::before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        width: 20px;
+        height: 2px;
+        background: black;
+        border-radius: 2px;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+      
+    .mobile_menu_btn::after {
+        content: '';
+        position: absolute;
+        display: block;
+        bottom: 0;
+        width: 20px;
+        height: 2px;
+        background: black;
+        border-radius: 2px;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+    .mobile_menu_active span {
+        opacity: 0;
+    }
+      
+    .mobile_menu_active::before {
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+      
+    .mobile_menu_active::after {
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .mobile_open {
+        display: block;
+        position: fixed;
+        z-index: 1000;
+        top: -200%;
+        left: 0;
+        width:100%;
+        height: 100vh;
+        background: #F8F9FF;
+        /* visibility: hidden;
+        opacity: 0; */
+        border-bottom: 1px solid #99a2d6;
+        transition: all .5s ease
+    }
+    .mobile_open .menu {
+        margin-top: 25%;
+        transform: translateY(-50%);
+        display: block;
+    }
+    .mobile_open .menu_item a {
+        font-size: 18px;
+    }
+    .mobile_open .menu_item {
+        margin-bottom: 8%;
+        margin-right: 0;
+    }
+    .mobile_menu_open_active {
+        top: 0;
+    }
+    .container {
+        padding-top: 80px;
+    }
+    .container h1, .container .portfolio_ask h1 {
+        font-size: 19px;
+    }
+    .job_text {
+        font-size: 11px;
+        line-height: 18px;
+        width: 100%;
+    }
+    .job_center {
+        display: block;
+    }
+    .job_img_window {
+        margin: 0 auto;
+    }
+    .job_task {
+        width: 72%;
+        margin: 10px auto;
+    }
+    .job_tehnology {
+        margin-bottom: 50px;
+    }
+    .portfolio_switch .switch_left_page p, .portfolio_switch .switch_right p {
+        font-size: 13px;
+    }
+    .portfolio_ask p {
+        width: 60%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .title_row .title_item h1 {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0 auto 15px auto;
+    }
+    .title_row .title_item h2 {
+        font-size: 13px;
+    }
+    .title_row .title_item img {
+        width: 250px;
+    }
+    .title_row .title_item button {
+        display: block;
+    }
+    .title_row .title_item {
+        margin-right: 20px;
+    }
+    .title_row .title_item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .technologies_title, .stages_title {
+        font-size: 16px;
+    }
+    .technologies_item p {
+        font-size: 11px;    
+        max-width: 80%;
+    }
+    .portfolio_top h1 {
+        font-size: 18px;
+    }
+    .item_name {
+        font-size: 14px;
+    }
+    .window_item {
+        display: block;
+    }
+    .review_img {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .form_img {
+        top: 80%;
+    }
+    .portfolio_bottom img {
+        width: 10px;
+        height: 10px;
+        padding: 5px;
+    }
+    .job_img_window {
+        width: 100%;
+    }
+    .job_task {
+        width: 100%;
+    }
+    .container_articles {
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 30px;
+    }
+    .articlepage_text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) { 
+    .form_body .inputs {
+        grid-template-columns: 120px 120px 120px;
+    }
+    .form_body .inputs_item {
+        height: 160px;
+    }
+    .application_contact .contact_name {
+        width: 80%;
+    }
+    .application_contact .contact_email {
+        width: 80%;
+    }
+    .application_message {
+        width: 80%;
+    }
+    .footer_left .fl_place_row {
+        display: block;
+    }
+    .footer_left .fl_place {
+        margin-right: 0;
+    }
+    .portfolio_bottom {
+        align-items: normal;
+    }
+    .portfolio_switch .switch_left_page p {
+        width: 70%;
+    }
+    .reviews_page .page_item .review_author .author_img {
+        margin-right: 10px;
+    }
+    .details_name  {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer_left, .footer_right {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .title_row .title_item img {
+        width: 180px;
+    }
+    .form_bar {
+        display: block;
+    }
+    .form_bar .progress_strelka {
+        margin-right: 0;
+        transform: rotate(90deg);
+    }
+    .footer_c .c_right {
+        text-align: center;
+    }
+    .footer_c .c_right a {
+        line-height: 15px;
+    }
+    
+    .c_left {
+        text-align: center;
+        line-height: 15px;
+    }
+    .popup_content .conf_title {
+        font-size: 18px;
+    }
+    .technologies_title, .stages_title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .portfolio_full {
+        font-size: 12px;
+    }
+    .item_name {
+        line-height: 20px;
+    }
+    .review_title {
+        font-size: 18px;
+    }
+    .form_body .inputs_item img {
+        width: 40px;
+    }
+    .form_body .inputs {
+        grid-template-columns: 90px 90px 90px;
+    }
+    .portfolio_title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .container_articles {
+        grid-template-columns: 48% 48%;
+        grid-column-gap: 6%;
+        grid-row-gap: 20px;
+    }
+    .container .portfolio_ask h1 {
+        font-size: 16px;
+    }
+    .portfolio_ask p {
+        width: 75%;
+    }
+    .reviews_page {
+        grid-template-columns: 95%;
+        padding-bottom: 150px;
+    }
+    .articlepage_text {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .aslo_title {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .aslo_row  {
+        display: block;
+    }
+}
+ 
+@media (max-width: 430px) {
+    .title_row {
+        display: block;
+    }
+    .title_row .title_item {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .title_row .title_item button {
+        margin: auto;
+    }
+    .title {
+        margin-top: 100px;
+    }
+    .technologies_row {
+        display: grid;
+        grid-template-columns: 40.625% 40.625%;
+        grid-row-gap: 40px;
+    }
+    .technologies_img {
+        margin-bottom: 20px;
+    }
+    .portfolio_full {
+        color: white
+    }
+    .item_bottom a {
+        width: 20px;
+        height: 20px;
+    }
+    .item_name {
+        font-size: 10px;
+    }
+    .review_switch {
+        padding: 10px 5px;
+    }
+    .details_name {
+        font-size: 13px;
+    }
+    .details_date {
+        font-size: 11px;
+    }
+    .review_img {
+        width: 90%;
+    }
+    .review_img img {
+        height: 150px;
+    }
+    .form_top .steps {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    .form_top .step {
+        width: 8px;
+        height: 8px;
+    }
+    .form_top .step-activ {
+        width: 14px;
+        height: 14px;
+    }
+    .form_body .inputs {
+        grid-template-columns: 45% 45%;
+    }
+    .form_img {
+        top: -40%;
+    }
+    .application_message #form_message {
+        width: 110%;
+        padding-left: 12px;
+    }
+    .footer_right {
+        display: block;
+    }
+    .footer_right p {
+        margin-right: 0;
+    }
+    .mobile_open .menu_item a {       
+        font-size: 14px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .container_articles {
+        grid-template-columns: 95%;
+    }
+    .container .portfolio_ask h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .portfolio_ask p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+  
+@media (max-width: 320px) {
+
+}
